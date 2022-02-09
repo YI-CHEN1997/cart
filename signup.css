@@ -1,0 +1,103 @@
+.container {
+  width: 500px;
+  border: 2px solid #0000cc;
+  padding: 50px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #848484;
+}
+
+.name {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #848484;
+}
+
+/* #pwd1 {
+  border-color: #f93838;
+} */
+
+/* #e-mail {
+  border-color: #f93838;
+} */
+
+#pwdnomatch {
+  font-size: 0.8rem;
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+  width: 100%;
+  text-align: left;
+  margin-left: 5px;
+  color: #f93838;
+}
+
+#rule {
+  font-size: 0.8rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: none;
+  width: 100%;
+  text-align: left;
+}
+
+#rule span {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.invalid {
+  color: #848484;
+}
+
+.valid {
+  color: #333;
+}
+
+.valid:before {
+  position: relative;
+  content: "✔︎";
+  color: rgb(14, 168, 0);
+}
+
+.subscribe {
+  font-size: 0.8rem;
+  color: #848484;
+}
+
+.agree {
+  font-size: 0.8rem;
+  color: #848484;
+}
+
+.agree a {
+  font-size: 0.8rem;
+  color: #848484;
+}
+
+.sign-up-btn {
+  border-radius: 0%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  background: #0000cc;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.sign-up-btn:hover {
+  color: white;
+}
